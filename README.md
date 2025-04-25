@@ -59,10 +59,53 @@ DEADLINE: 23H59:59 NGÀY 25/4/2025
 
   ![image](https://github.com/user-attachments/assets/40286e22-e267-44f6-aa4b-7972a4ea8c8b)
 
-4. 
+4. Truy vấn những thông tin trùng ngày và tháng sinh:
+
+   ![image](https://github.com/user-attachments/assets/0e326bf6-c62c-4780-82fa-03d0b6a1fe78)
+
+5. Truy vấn thông tin những sinh viên trùng tháng và năm sinh với em:
+
+   ![image](https://github.com/user-attachments/assets/c41419fa-5e25-4c1e-b44d-b1eaa30db104)
+
+6. Truy vấn thông tin những sinh viên trùng tên với em:
+
+  ![image](https://github.com/user-attachments/assets/90a02e14-6878-48a6-9d43-de3ce2595fe4)
+
+7. Truy vấn thông tin những sinh viên có trùng họ và tên đệm với em:
+
+   ![image](https://github.com/user-attachments/assets/e1a46622-dac9-4b0f-8845-aa2e2164fba9)
+
+8. Truy vấn những sinh viên có sdt khác chỉ 1 số với em:
+
+   ![image](https://github.com/user-attachments/assets/6fe7e731-0afb-4b35-aebb-5169fc54b938)
+
+9. LIỆT KÊ TẤT CẢ CÁC SV NGÀNH KMT, SẮP XẾP THEO TÊN VÀ HỌ ĐỆM, KIỂU TIẾNG  VIỆT:
+
+![image](https://github.com/user-attachments/assets/a57ead19-9b39-4f09-8981-57ca434b9c61)
+
+- Giải thích:
+
+  + WHERE lop LIKE '%KMT': tìm trong cột lop có chuỗi string nào trùng với chuỗi kí tự KMT thì lôi ra
+ 
+  + COLLATE Vietnamese_CI_AS: Sắp xếp tên và họ đệm kiểu tiếng Việt theo thứ tự từ a-->z
+ 
+  10. Truy vấn các sinh viên nữ ngành KMT có trong bảng SV:
+ 
+      ![image](https://github.com/user-attachments/assets/14309c53-a7bf-47ca-89ac-6ca9e344c074)
+
+  - Em truy vấn ra họ tên của toàn bộ sv KMT
+  - Cop cột tên đưa lên Chat để nhờ suy luận ra tên các bạn nữ
+  - Sau khi đã có tên thì dùng các tên đó kèm lệnh WHERE lop LIKE '%KMT%' AND ten IN ( các tên vừa suy luận)
+  - Test ra số lượng còn ít, khi đó em có thê tự lọc ra tên các bạn nữ bằng tay.
+
+ 
+      
 
 
-   ![image](https://github.com/user-attachments/assets/b6fb4cb6-1b5c-4027-a9dd-c4248eecba1f)
+
+
+
+
 
 
 
