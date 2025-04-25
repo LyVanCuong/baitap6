@@ -18,7 +18,7 @@ Cho file sv_tnut.sql (1.6MB)
 DEADLINE: 23H59:59 NGÀY 25/4/2025
 
 -------------------------------------------------------------------------------------------------------------
-1. Các bước để import dữ liệu từ file sv_tnut.sql vào sql server:
+## 1. Các bước để import dữ liệu từ file sv_tnut.sql vào sql server:
    - B1: Sau khi kết nối tới sql server, chọn file ---> open ---> file...:
   
      ![image](https://github.com/user-attachments/assets/b8a1aa33-bb44-4218-b04c-dcd90ec814cc)
@@ -45,7 +45,7 @@ DEADLINE: 23H59:59 NGÀY 25/4/2025
      ![image](https://github.com/user-attachments/assets/f67530ba-3e88-42c9-97e3-f29a4c8685b9)
 
 
-2. Truy vấn ra thông tin của em ( Lý Văn Cường) với dữ liệu đầu vào là tên; sđt; ngày, tháng, năm sinh
+## 2. Truy vấn ra thông tin của em ( Lý Văn Cường) với dữ liệu đầu vào là tên; sđt; ngày, tháng, năm sinh
 
    - New Query để code truy vấn
    - Dùng câu lệnh SELECT các trường tên, ngày sinh, số điện thoại từ bảng SV where các trường = dữ liệu phù hợp với thông tin của em:
@@ -53,33 +53,35 @@ DEADLINE: 23H59:59 NGÀY 25/4/2025
      ![image](https://github.com/user-attachments/assets/ff24dc2a-375b-4de0-b30e-444f9091f1e6)
 
 
-3. Truy vấn những sinh viên trùng hoàn toàn ngày tháng năm sinh với em:
+## 3. Truy vấn những sinh viên trùng hoàn toàn ngày tháng năm sinh với em:
 
 - Dùng câu lệnh day, month, year để lấy ra được ngày, tháng, năm từ cột ns có kiểu Date để so sánh:
 
   ![image](https://github.com/user-attachments/assets/40286e22-e267-44f6-aa4b-7972a4ea8c8b)
 
-4. Truy vấn những thông tin trùng ngày và tháng sinh:
+## 4. Truy vấn những thông tin trùng ngày và tháng sinh:
 
    ![image](https://github.com/user-attachments/assets/0e326bf6-c62c-4780-82fa-03d0b6a1fe78)
 
-5. Truy vấn thông tin những sinh viên trùng tháng và năm sinh với em:
+## 5. Truy vấn thông tin những sinh viên trùng tháng và năm sinh với em:
 
    ![image](https://github.com/user-attachments/assets/c41419fa-5e25-4c1e-b44d-b1eaa30db104)
 
-6. Truy vấn thông tin những sinh viên trùng tên với em:
+## 6. Truy vấn thông tin những sinh viên trùng tên với em:
 
   ![image](https://github.com/user-attachments/assets/90a02e14-6878-48a6-9d43-de3ce2595fe4)
 
-7. Truy vấn thông tin những sinh viên có trùng họ và tên đệm với em:
+## 7. Truy vấn thông tin những sinh viên có trùng họ và tên đệm với em:
 
    ![image](https://github.com/user-attachments/assets/e1a46622-dac9-4b0f-8845-aa2e2164fba9)
 
-8. Truy vấn những sinh viên có sdt khác chỉ 1 số với em:
+## 8. Truy vấn những sinh viên có sdt khác chỉ 1 số với em:
 
    ![image](https://github.com/user-attachments/assets/6fe7e731-0afb-4b35-aebb-5169fc54b938)
 
-9. LIỆT KÊ TẤT CẢ CÁC SV NGÀNH KMT, SẮP XẾP THEO TÊN VÀ HỌ ĐỆM, KIỂU TIẾNG  VIỆT:
+   Trong danh sách không có sinh viên nào sai chỉ 1 số so với SDT của em
+
+## 9. LIỆT KÊ TẤT CẢ CÁC SV NGÀNH KMT, SẮP XẾP THEO TÊN VÀ HỌ ĐỆM, KIỂU TIẾNG  VIỆT:
 
 ![image](https://github.com/user-attachments/assets/a57ead19-9b39-4f09-8981-57ca434b9c61)
 
@@ -89,9 +91,12 @@ DEADLINE: 23H59:59 NGÀY 25/4/2025
  
   + COLLATE Vietnamese_CI_AS: Sắp xếp tên và họ đệm kiểu tiếng Việt theo thứ tự từ a-->z
  
-  10. Truy vấn các sinh viên nữ ngành KMT có trong bảng SV:
+  ## 10. Truy vấn các sinh viên nữ ngành KMT có trong bảng SV:
+  
  
-      ![image](https://github.com/user-attachments/assets/14309c53-a7bf-47ca-89ac-6ca9e344c074)
+  ![image](https://github.com/user-attachments/assets/2ac4afc1-ac2b-4808-b797-5862f9ad799e)
+
+
 
   - Em truy vấn ra họ tên của toàn bộ sv KMT
   - Cop cột tên đưa lên Chat để nhờ suy luận ra tên các bạn nữ
